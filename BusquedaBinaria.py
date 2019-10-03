@@ -1,0 +1,15 @@
+def busquedaBinaria(unaLista, item):
+	   primero = 0
+     ultimo = len(unaLista)-1
+     encontrado = False
+     while primero<=ultimo and not encontrado:
+         puntoMedio = (primero + ultimo)//2
+         if unaLista[puntoMedio] == item:
+            encontrado = True
+         else:
+             if item < unaLista[puntoMedio]:
+                ultimo = puntoMedio-1
+             else:
+	                primero = puntoMedio+1
+
+	    return encontrado
