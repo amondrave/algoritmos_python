@@ -14,3 +14,10 @@ else:
     else:
         print("El número pensado es 1.")
 print("¡Hasta la próxima!")
+
+#paridad
+def muestra_paridad(x):
+    if x % 2 == 0:
+        print x, "es par."
+    else:
+        print x, "es non."
