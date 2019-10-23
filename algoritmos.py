@@ -78,3 +78,10 @@ for numero in numeros:
         mayor = numero
 # Imprimir el resultado
 print("Mayor:", mayor)
+
+# ordenamiento
+numbers = [1, 3, 4, 2] 
+  
+numbers.sort() 
+  
+print(numbers) 
