@@ -23,3 +23,16 @@ print(palindrome(x))
 print(palindrome(y))
 print(palindrome(z))
 print(palindrome(v))
+
+##Otro método para comparación de cadenas
+f = open("asd.txt")
+
+aux = ""
+
+aux = f.readline()
+aux = f.readline()
+
+if aux == "asdf":
+    print("Iguales")
+
+print(aux)
