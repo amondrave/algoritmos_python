@@ -36,3 +36,10 @@ if aux == "asdf":
     print("Iguales")
 
 print(aux)
+#Sustituir
+mensaje9 = "Hola Mundo"
+startLoc = 2
+endLoc = 8
+mensaje9b = mensaje9[startLoc: endLoc]
+print(mensaje9b)
+-> la Mun
