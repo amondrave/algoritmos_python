@@ -13,3 +13,18 @@ def busquedaBinaria(unaLista, item):
 	                primero = puntoMedio+1
 
 	    return encontrado
+
+#Otro
+def busqueda_binaria(lista, x):
+    izq = 0 
+    der = len(lista) -1 
+    while izq <= der:
+        medio = (izq+der)/2
+        if lista[medio] == x:
+            return medio
+
+        elif lista[medio] > x:
+            der = medio-1        
+        else:
+            izq = medio+1
+    return -1
